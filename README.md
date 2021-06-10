@@ -23,9 +23,9 @@ Movies app uses **Mongo Atlas** (no relational database) to store all the data. 
 
 ```json
 {    
-    _id: 60c14b2fd5f26107a01cf00b
-    email: "test@mail.com"
-    password: "$2a$10$iFOpt8.XcDGrA5Xhf20l2uP8ZP5xWmpfVsdkbjenb1GLdnJ4n0QLe"
+    "_id": "60c14b2fd5f26107a01cf00b"
+    "email": "test@mail.com"
+    "password": "$2a$10$iFOpt8.XcDGrA5Xhf20l2uP8ZP5xWmpfVsdkbjenb1GLdnJ4n0QLe"
 }
 ```
 
@@ -35,13 +35,13 @@ The second collection is called **movies** where we store the main data of a mov
 
 ```json
 {    
-	_id: 60c14b4ed5f26107a01cf00d
-    poster: "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3Zj..."
-    title: "Star Wars: Episode IV - A New Hope"
-    year: "1977"
-    imdbRating: "8.6"
-    imdbID: "tt0076759"
-    uid: 60c14b2fd5f26107a01cf00b
+	"_id": "60c14b4ed5f26107a01cf00d"
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3Zj..."
+    "title": "Star Wars: Episode IV - A New Hope"
+    "year": "1977"
+    "imdbRating": "8.6"
+    "imdbID": "tt0076759"
+    "uid": 60c14b2fd5f26107a01cf00b
 }
 ```
 
