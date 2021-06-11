@@ -17,7 +17,7 @@ The application is able to:
 
 
 
-##### Database
+**Database**
 
 Movies app uses **Mongo Atlas** (no relational database) to store all the data. The information is distributed in two **collections** the first one called **users** it contains 3 fields **_id, email and password** and just to ensure user's privacy we store a encoded password.
 
@@ -35,7 +35,7 @@ The second collection is called **movies** where we store the main data of a mov
 
 ```json
 {    
-	"_id": "60c14b4ed5f26107a01cf00d",
+    "_id": "60c14b4ed5f26107a01cf00d",
     "poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjkt...",
     "title": "Star Wars: Episode IV - A New Hope",
     "year": "1977",
@@ -68,3 +68,9 @@ The frontend was built with the help of **Vuejs 3** and **Bootstrap 5** where th
 
 
 ![Searching](https://i.ibb.co/f1R54Yg/3.png)
+
+
+
+**Algorithms**
+
+There are 4 exercises inside **algorithms** folder, all of them were solved using javascript with Nodejs.
